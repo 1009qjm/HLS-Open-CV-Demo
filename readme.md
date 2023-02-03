@@ -148,7 +148,7 @@ void dilate_erode(AXI_STREAM& INPUT_STREAM,AXI_STREAM& OUTPUT_STREAM,int rows,in
 //角点检测
 void fast_corner(AXI_STREAM & INPUT_STREAM,AXI_STREAM & OUTPUT_STREAM,int rows,int cols);
 ```
-可以看到，这6个函数的参数是一致的：其中，INPUT_STREAM表示通过AXI STREAM接口输入的待处理图像，OUTPUT_STREAM表示通过AXI STREAM接口输出的已处理图像，rows、cols分别表示待处理图像的高、宽。其处理流程也类似，如下图所示：
+可以看到，这6个函数的参数是一致的：其中，INPUT_STREAM表示通过AXI STREAM接口输入的待处理图像，OUTPUT_STREAM表示通过AXI STREAM接口输出的已处理图像，rows、cols分别表示待处理图像的高、宽。其处理流程也类似，如下图方框内所示：
 
 ![D3 VUNC0ASIP))05{XS_F{B](https://user-images.githubusercontent.com/44521731/215040323-863536af-2dc6-400c-a014-a08131760a1e.png)
 
